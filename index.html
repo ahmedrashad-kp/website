@@ -1,0 +1,276 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kong a Personal Portfolio Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+	<!--fonts-->
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/23c642807d.js" crossorigin="anonymous"></script>
+		
+		<!--//fonts-->
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- for-mobile-apps -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="Kong Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+		Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- js -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- js -->
+	<!-- start-smooth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smooth-scrolling -->
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner" id="home">
+	<div class="container"> 
+		<div class="top-header row">
+			<script src="js/classie.js"></script>
+			<!--top-nav---->
+			<div class="logo">
+				<a href="index.html"><i class='fas fa-stethoscope' style='font-size:3em;color: white;'></i></a>
+			</div>
+			<div class="top-nav">
+				<div class="nav-icon">
+					    <a href="#" class="right_bt" id="activator"><span> </span> </a>
+				</div>
+				<div class="box" id="box">
+					<div class="box_content">        					                         
+						<div class="box_content_center">
+							<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="scroll" href="#home"><span>HOME</span></a></li>
+										<li><a class="scroll" href="#about"><span>ABOUT</span></a></li>
+										<li><a class="scroll" href="favs"><span>FAVORITES</span></a></li>
+										<div class="clearfix"> </div>
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>       	  
+			</div>
+			<!---start-click-drop-down-menu----->
+			        <!----start-dropdown--->
+			         <script type="text/javascript">
+						var $ = jQuery.noConflict();
+							$(function() {
+								$('#activator').click(function(){
+									$('#box').animate({'top':'0px'},900);
+								});
+								$('#boxclose').click(function(){
+								$('#box').animate({'top':'-1000px'},900);
+								});
+							});
+							$(document).ready(function(){
+							//Hide (Collapse) the toggle containers on load
+							$(".toggle_container").hide(); 
+							//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+							$(".trigger").click(function(){
+								$(this).toggleClass("active").next().slideToggle("slow");
+									return false; //Prevent the browser jump to the link anchor
+							});
+												
+						});
+					</script>
+			<!---//End-click-drop-down-menu----->
+			<div class="clearfix"> </div>
+		</div>
+		<div class="banner-info">
+			<div class="banner-left ">
+				<img class="shirin-photo img-fluid" src="images/shirin.jpg" alt=""/>
+			</div>
+			<div class="banner-right ">
+				<h1>HEY...!</h1>
+				<h1>I’M FATHIMA SHIRIN SAKEER</h1>
+				<div class="border"></div>
+				<h2 style="color: 	#787878;">MEDICAL  STUDENT</h2>
+				<h3>KMC MANIPAL</h3>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!--/header-banner-->
+<!--about-->
+<div class="about text-center" id="about">
+	<div class="container">
+		<h3>ABOUT ME</h3>
+		<div class="strip text-center"><img src="images/about.png" alt=" "/></div>
+		<p>I'm Fathima Shirin Sakeer , currently an undergrad student at KMC Manipal pursuing MBBS degree.
+
+			I look forward to being a Trauma Surgeon
+			
+			Every emergency situation is a puzzle in itself and solving puzzles have always been my forte.
+			
+			I believe that what one does is the best way to express oneself to the people and I see no better way than being a physician to do that..</p>
+		<ul>
+			<li><a class="fa fa-facebook" href="https://www.facebook.com/shirin.sakeer26"></a></li>
+			
+			<li><a class="fa fa-instagram" href="https://instagram.com/shirin_sakeer?utm_medium=copy_link"></a>
+	
+		</ul>
+	</div>
+</div>
+<!--//about-->
+
+
+
+<!--education-->
+<div class="education text-center">
+	<div class="row">
+	<div class="container">
+		<div class="edu-info">
+			<h3>EDUCATION</h3>
+		</div>
+		<div class="strip text-center"><img src="images/edu.png" alt=" "/></div>
+		<div class="edu-grids">
+			<div class="col-md-4 edu-grid">
+				<p>10th Level</p>
+				<span>2015</span>
+		
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3> CGPA 10</h3>
+						<h4> Sharjah Indian School</h4>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>Higher Secondary</p><span>2015-2017</span>
+				
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>Completed with 96%</h3>
+						<h4>Nadakkavu Girls Higher Secondary School</h4>
+					</div>
+					
+				</div>
+			</div>
+			<div class="col-md-4 edu-grid">
+				<p>MBBS</p><span>2018-2023</span>
+				
+				<div class="edu-border">
+					<div class="edu-grid-master">
+						<h3>Currently</h3>
+						<h4>KMC Manipal</h4>
+					</div>
+					
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+</div>
+<!--//education-->
+<div class="strip-border"><p></p></div>
+<!--work-->
+<div class="work-experience text-center">
+	
+	<div class="container">
+		<div class="work-info">
+			<h3>FAVORITES</h3>
+			<br>
+			<br>
+			<br>
+			<h3>Books</h3>
+			<br>
+			<br><br><br>
+		</div>
+	<div class="row">
+		<div class= " card-mainbody col-md-3" style="float: left;">
+			<div class="card" style="width: 18rem;">
+				<div  class="img-cn">
+				<img class="card-img-top" style="width: 100%;height: 100%;" src="images\harry.jpg" alt="Card image cap">
+			</div>
+				<div class="card-body">
+				  <p class="card-text"><h4> Harry Potter Series</h4></p>
+				</div>
+			  </div>
+			</div>
+		<div class="col-md-3" style="float: left;">
+			<div class="card" style="width: 18rem;">
+				<div class="img-cn">
+				<img class="card-img-top" style="width: 100%;height: 100%;" src="images\kite.jpg" alt="Card image cap">
+			</div>
+				<div class="card-body">
+				  <p class="card-text"><h4>Kite Runner</h4></p>
+				</div>
+			  </div>
+			</div>
+		<div class="col-md-3" style="float: left;">
+		<div class="card" style="width: 18rem;">
+			<div  class="img-cn">
+			<img class="card-img-top" style="width: 100%;height: 100%;" src="images\alchemist.jpg" alt="Card image cap">
+		</div>
+			<div class="card-body">
+			  <p class="card-text"><h4> The Alchemist</h4></p>
+			</div>
+		  </div>
+		</div>
+		<div class="col-md-3" style="float: left;">
+			<div class="card" style="width: 18rem;">
+				<div class="img-cn">
+				<img class="card-img-top" style="width: 100%;height: 100%;" src="images\davinci.jpg" alt="Card image cap">
+			</div>
+				<div class="card-body">
+				  <p class="card-text"><h4>The Da Vinci Code</h4></p>
+				</div>
+			  </div>
+			</div>
+	</div>
+</div>
+
+
+
+<!--footer-->
+<div class="footer">
+	<div class="container">
+		<p>Copyright &copy; 2015 Kong. Template by <a href="http://w3layouts.com/"> W3layouts</a></p>
+	</div>
+</div>
+<!--//footer-->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
